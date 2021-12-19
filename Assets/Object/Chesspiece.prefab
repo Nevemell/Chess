@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8639582055274229343}
   - component: {fileID: 8639582055274229336}
   - component: {fileID: -3105533514273288166}
+  - component: {fileID: -5263530509099375284}
   m_Layer: 0
   m_Name: Chesspiece
   m_TagString: Untagged
@@ -95,7 +96,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
-  movePlate: {fileID: 0}
+  movePlate: {fileID: 9132743191347860742, guid: 112a24ff75fd4ed4b8c35b29a56443eb,
+    type: 3}
   black_bishop: {fileID: 21300000, guid: b1a8feae3371a4c42af0f03508c72351, type: 3}
   black_king: {fileID: 21300000, guid: 317c927a393fab546beaaf96e7c89f6b, type: 3}
   black_knight: {fileID: 21300000, guid: 57c0b006b40d52c4d9080796854d6142, type: 3}
@@ -108,3 +110,16 @@ MonoBehaviour:
   white_pawn: {fileID: 21300000, guid: c1914e431e5292845b396731307f662d, type: 3}
   white_queen: {fileID: 21300000, guid: bfeb0faee1af5034a8d2df8ef8fc58c1, type: 3}
   white_rook: {fileID: 21300000, guid: e77671fc71e05744ba27865893daddc8, type: 3}
+--- !u!65 &-5263530509099375284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8639582055274229337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

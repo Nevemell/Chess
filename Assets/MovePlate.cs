@@ -22,7 +22,6 @@ public class MovePlate : MonoBehaviour
     {
         controller = GameObject.FindGameObjectWithTag("GameController");
 
-        //Destroy the victim Chesspiece
         if (attack)
         {
             GameObject cp = controller.GetComponent<Game>().GetPosition(matrixX, matrixY);
@@ -34,6 +33,7 @@ public class MovePlate : MonoBehaviour
         reference.GetComponent<Chessman>().SetYBoard(matrixY);
         reference.GetComponent<Chessman>().SetCoords();
         controller.GetComponent<Game>().SetPosition(reference);
+        reference.GetComponent<Chessman>().DestroyMovePlates();
     }
 
      public void SetCoords(int x, int y)
